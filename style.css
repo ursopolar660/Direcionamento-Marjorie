@@ -172,7 +172,7 @@ body {
 
         & .item2, & .item3, & .item4, & .item5 {
             width: 60%;
-            background-size: contain;
+            background-size: cover;
             background-position-x: 90%;
             background-repeat: no-repeat;
             height: 12.8em;
