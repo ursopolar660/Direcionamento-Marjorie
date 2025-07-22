@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'GlacialIndifferenceRegular';
+    src: url('font/GlacialIndifference-Regular.otf') format('opentype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
@@ -31,7 +35,7 @@ body {
     }
 
     & h1 {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'GlacialIndifferenceRegular', serif;
         margin-top: 0.4em;
         font-size: 1.6em;
         font-weight: 400;
@@ -126,23 +130,23 @@ body {
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                gap: 0.5em;
+                gap: 0.1em;
                 font-size: 1.6em;
                 color: #BEB9B1;
 
                 & p {
-                    font-size: 1.1em;
+                    font-size: 1em;
                     text-transform: uppercase;
                     font-weight: 300;
                     margin-top: 2.3em;
-                    letter-spacing: 0.3em;
-                    font-family: 'Raleway', serif;
+                    letter-spacing: 0.2em;
+                    font-family: 'GlacialIndifferenceRegular', serif;
                     padding: 0.1em;
                 }
 
                 & h3 {
                     margin-bottom: 0.65em;
-                    font-size: 3.5em;
+                    font-size: 3em;
                     font-weight: 500;
                     letter-spacing: 0.1em;
                 }
@@ -205,8 +209,8 @@ body {
                     font-size: 1.1em;
                     font-weight: 300;
                     margin-top: 1.3em;
-                    letter-spacing: 0.3em;
-                    font-family: 'Raleway', serif;
+                    letter-spacing: 0.2em;
+                    font-family: 'GlacialIndifferenceRegular';
                     padding: 0.4em;
                 }
 

@@ -53,8 +53,9 @@
                 height: auto;
                 min-height: 10em;
                 padding: 1em;
-                background-size: 50%;
-                background-position: right center;
+                background-size: 100%;
+                background-position: right;
+                
 
                 & img {
                     width: 8em;
@@ -103,7 +104,7 @@
                 & button {
                     font-size: 1em;
                     padding: 0.8em 2em;
-                    margin-top: -0.5em;
+                    margin-top: -0.6em;
                     margin-bottom: 1.5em;
                 }
             }
@@ -163,7 +164,7 @@
                 width: 95%;
                 min-height: 8em;
                 padding: 0.8em;
-                background-size: 40%;
+                background-size: 80%;
                 background-position: center;
 
                 & img {
