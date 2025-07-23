@@ -160,28 +160,70 @@
         padding: 1em;
 
         & .container {
-            & .item1, & .item2, & .item3, & .item4, & .item5 {
-                width: 95%;
-                min-height: 8em;
-                padding: 0.8em;
-                background-size: 80%;
-                background-position: center;
+            & .item1{
+                max-height: 8em;
+                background-size: contain;
+                background-clip: content-box;
+                background-position-y: -1.5em;
+                /* background-size: 70%; */
+                /* background-color: black; */
+                background-clip: content-box;
+                /* background-position-x: -0.8em; */
+                /* background-position: center; */
 
-                & img {
-                    width: 6em;
-                }
-
-                & .description {
-                    font-size: 1em;
-                    padding: 0.8em;
-
-                    & p {
+                & .description{
+                    font-size: 1.08em;
+                    border-radius: 5px;
+                    padding: 0.7em;
+                    padding-left: 3em;
+                    margin-left: -6em;
+                    -webkit-border-radius: 2em;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    z-index: -1;
+                    
+                        &p{
                         font-size: 0.8em;
-                        letter-spacing: 0.15em;
+                        letter-spacing: 0.1em;
                     }
 
                     & h3 {
                         font-size: 1.5em;
+                    }
+                }
+                & img {
+                    /* background-color: rgba(0, 0, 0, 0.7); */
+                    background-origin: border-box;
+                    margin-left: 0.6em;
+                    
+                    width: 6em;
+                    z-index: 20;
+                }
+            }
+            .link{
+                margin-top: -1.7em;
+            }
+            & .item2, & .item3, & .item4, & .item5 {
+                width: 95%;
+                min-height: 8em;
+                padding: 0.2em;
+                background-size: cover;
+                background-clip: content-box;
+                background-position: center;
+
+
+                & .description {
+                    font-size: 1em;
+                    padding: 0.3em;
+
+                    & p {
+                        font-size: 1em;
+                        letter-spacing: 0.15em;
+                    }
+
+                    & h3 {
+                        font-size: 1.9em;
                     }
                 }
             }
@@ -208,6 +250,7 @@
             }
 
             & a {
+                margin-top: -0.8em;
                 & button {
                     font-size: 0.9em;
                     padding: 0.6em 1.5em;
