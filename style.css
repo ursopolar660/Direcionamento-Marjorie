@@ -100,7 +100,7 @@ body {
 
         & .item1 {
             width: 60%;
-            background-image: url('assets/book.png');
+            background-image: url('assets/book_1_11zon.webp');
             background-size: contain;
             background-position-x: 90%;
             background-repeat: no-repeat;
@@ -223,17 +223,17 @@ body {
         }
 
         & .item2 {
-            background-image: url('assets/iphone.png');
+            background-image: url('assets/iphone_3_11zon.webp');
         }
 
         & .item3 {
-            background-image: url('assets/note.png');
+            background-image: url('assets/note_2_11zon.webp');
             background-size: cover;
             background-position-y: center;
         }
 
         & .item4 {
-            background-image: url('assets/marjorie.png');
+            background-image: url('assets/marjorie_1_11zon.webp');
             background-size: cover;
             background-position-y: center;
 
@@ -252,7 +252,7 @@ body {
         }
 
         & .item5 {
-            background-image: url('assets/cell.png');
+            background-image: url('assets/cell_2_11zon.webp');
             background-size: cover;
             background-position-y: center;
 
